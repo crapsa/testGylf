@@ -1,0 +1,19 @@
+.map_landscape {
+  display: none;
+}
+
+.map_portrait {
+  display: block;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .map_portrait {
+    display: none;
+  }
+
+  .map_landscape {
+    display: block;
+    width: 100%;
+}
+}
